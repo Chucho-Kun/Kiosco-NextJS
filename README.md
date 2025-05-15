@@ -1,4 +1,4 @@
-## Routing Next.JS
+## Routing Next.JS + PostgreSQL
 
 ## Getting Started
 
