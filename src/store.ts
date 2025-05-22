@@ -16,6 +16,9 @@ export const useStore = create<Store>((set , get )=> ({
 
         const { categoryId , image , ...data } = product 
 
+        console.log( categoryId )
+        console.log( image )
+
         let order : OrderItem[] = []
 
         if( get().order.find( item => item.id === product.id ) ){

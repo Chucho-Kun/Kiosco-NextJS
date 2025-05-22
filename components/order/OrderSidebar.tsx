@@ -1,7 +1,5 @@
-import { PrismaClient , Category } from "@prisma/client";
 import { prisma } from '@/src/lib/prisma'
 import CategoryIcon from "./ui/CategoryIcon";
-import { categories } from "@/prisma/data/categories";
 
 
 async function getCategories(){
