@@ -1,3 +1,6 @@
+## Plataforma Menu Lista
+Plataforma lista para mandar los pedidos a Plataforma Cosina
+
 ## Prisma Stabled
 La última versión de la librería no debe actualizarse hasta ser estable
 
