@@ -1,3 +1,6 @@
+## Prisma Stabled
+La última versión de la librería no debe actualizarse hasta ser estable
+
 ## Routing Next.JS + PostgreSQL
 
 ## Getting Started
