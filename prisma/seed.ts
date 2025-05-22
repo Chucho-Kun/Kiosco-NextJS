@@ -1,7 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 import { categories } from "./data/categories";
 import { products } from './data/products';
-import {} from '@prisma/client'
 
 const prisma = new PrismaClient()
 
@@ -13,6 +12,7 @@ async function main() {
         await prisma.product.createMany({
             data:products
         })
+        
     } catch(error){
         console.log(error)
     }
