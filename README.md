@@ -1,8 +1,9 @@
 ## Deploy en Vercel
 Next.JS 15 cambia los params -> Promises
-´´´
+
+```
 npx prisma generate && next build
-´´´
+```
 
 ## Prisma Stabled
 La última versión de la librería no debe actualizarse hasta ser estable
